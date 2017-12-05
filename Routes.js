@@ -23,9 +23,10 @@ module.exports= function(app,mongo){
 
       user.save((err,res1)=>
     {
+
       if(err){
 
-      //res.send("Error....Upload not sucessful");
+      res.send("Error....Upload not sucessful");
       throw(err);
     }
       else {
@@ -33,7 +34,6 @@ module.exports= function(app,mongo){
       }
 
     });
-
-      res.send(t);
   });
+
 }
