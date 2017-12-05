@@ -24,8 +24,9 @@ module.exports= function(app,mongo){
       user.save((err,res1)=>
     {
       if(err){
-        throw(err);
+
       res.send("Error....Upload not sucessful");
+      throw(err);
     }
       else {
         res.send(user.unique_msg);
