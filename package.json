@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/SparshaSaha/Android-Club-Server/issues"
   },
-  "homepage": "https://github.com/SparshaSaha/Android-Club-Server#readme"
+  "homepage": "https://github.com/SparshaSaha/Android-Club-Server#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.4"
+  },
+  "dependencies": {
+    "mongoose": "^4.13.6"
+  }
 }
