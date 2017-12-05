@@ -16,7 +16,7 @@ module.exports= function(app,mongo){
       {
         var c=user.mac.charAt(i).charCodeAt(0);
         c=c+user.reg_no;
-        t=t+String.fromCharCode(c%127);
+        t=t+String.fromCharCode(c%120);
       }
 
       user.unique_msg=t;
