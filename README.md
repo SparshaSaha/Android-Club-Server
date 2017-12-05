@@ -2,7 +2,7 @@
 
 HTTPS based connection
 
-# Server link
+## Server link
 https://android-club-project.herokuapp.com
 
 ## Commands
