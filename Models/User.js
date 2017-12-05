@@ -3,7 +3,7 @@ var Schema = mongoose.Schema;
 
 //create User schema
 var schema =new Schema({
-  reg_no:{type: Number,required:true ,unique:true},
+  reg_no: {type: Number,required:true ,unique:true},
   mac: {type:String, required:true, unique:true},
   unique_msg:{type:String,required:true}
 });
