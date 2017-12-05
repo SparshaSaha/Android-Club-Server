@@ -25,7 +25,7 @@ module.exports= function(app,mongo){
     {
       if(err){
 
-      res.send("Error....Upload not sucessful");
+      //res.send("Error....Upload not sucessful");
       throw(err);
     }
       else {
