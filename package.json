@@ -1,0 +1,19 @@
+{
+  "name": "android-club-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparshaSaha/Android-Club-Server.git"
+  },
+  "author": "Sparsha Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SparshaSaha/Android-Club-Server/issues"
+  },
+  "homepage": "https://github.com/SparshaSaha/Android-Club-Server#readme"
+}
