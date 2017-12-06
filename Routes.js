@@ -4,8 +4,9 @@ const User=require("./Models/User");
 module.exports= function(app,mongo){
   app.get("/upload_details",(req,res)=>{
     var z=0;
-    if(req.query.reg_no.length!=0 && req.query.mac.length!=0)
+    if(req.query.reg_no.length!=0 && req.query.mac.length!=0){}
     z=1;
+  }
 
     var user;
     if(z==1){
