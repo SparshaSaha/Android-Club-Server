@@ -9,6 +9,7 @@ module.exports= function(app,mongo){
 
     var user;
     if(z==1){
+      z=0;
     user=new User({
 
       reg_no:req.query.reg_no,
