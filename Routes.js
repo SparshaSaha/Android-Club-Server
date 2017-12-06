@@ -4,7 +4,7 @@ const User=require("./Models/User");
 module.exports= function(app,mongo){
   app.get("/upload_details",(req,res)=>{
     var z=0;
-    if(req.query.reg_no!=null && req.query.mac!=null)
+    if(req.query.reg_no.equals("")==false && req.query.mac.equals("")==false)
     z=1;
 
     var user;
