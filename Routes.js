@@ -17,7 +17,7 @@ module.exports= function(app,mongo){
       mac:req.query.mac,
       unique_msg:""
     });
-    var t=""
+    var t="";
     //calculate unique message
       for(var i=0;i<=user.mac.length;i++)
       {
