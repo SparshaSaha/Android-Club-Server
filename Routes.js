@@ -34,7 +34,6 @@ module.exports= function(app,mongo){
       if(err){
 
       res.send("Error....Upload not sucessful mostly due to redundant data");
-      throw(err);
     }
       else {
         res.send(user.unique_msg);
